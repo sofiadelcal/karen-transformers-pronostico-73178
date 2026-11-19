@@ -129,14 +129,14 @@ La principal limitación es que la señal no procede de consumo eléctrico medid
 La práctica permitió implementar atención aditiva y autoatención causal y compararlas en una predicción multi-horizonte con separación cronológica. En esta ejecución, la referencia estacional superó a las dos arquitecturas aprendidas; el Transformer mejoró ligeramente el RMSE de persistencia, mientras que la atención aditiva no superó ninguna de las dos referencias. La conclusión se limita a la señal sintética, un horizonte, una partición y tres inicializaciones; no se extrapola a demanda real.
 
 \section*{Código y reproducibilidad}
-El cuaderno ejecutado se encuentra en \colab. El repositorio público contiene el código, los resultados de esta corrida y el informe: \repo. Para reproducir localmente, instalar \texttt{requirements.txt} y ejecutar \texttt{python experimento\_transformers.py}. La señal es sintética y las cifras corresponden a la configuración indicada en el método.
+El cuaderno del proyecto puede abrirse en \colab. El repositorio público contiene el código, los resultados de la corrida documentada y el informe: \repo. Para reproducir localmente, instalar \path{requirements.txt} y ejecutar \path{python experimento_transformers.py}. La señal es sintética y las cifras corresponden a la configuración indicada en el método.
 
 \section*{Referencias}
 \begin{hangparas}{0.5in}{1}
-Nie, Y., Nguyen, N. H., Sinthong, P., \& Kalagnanam, J. (2023). A time series is worth 64 words: Long-term forecasting with Transformers. En \textit{International Conference on Learning Representations}. https://openreview.net/forum?id=Jbdc0vTOcol
+Nie, Y., Nguyen, N. H., Sinthong, P., \& Kalagnanam, J. (2023). A time series is worth 64 words: Long-term forecasting with Transformers. En \textit{International Conference on Learning Representations}. \url{https://openreview.net/forum?id=Jbdc0vTOcol}
 
-Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., \& Polosukhin, I. (2017). Attention is all you need. En \textit{Advances in Neural Information Processing Systems} (Vol. 30). https://arxiv.org/abs/1706.03762
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., \& Polosukhin, I. (2017). Attention is all you need. En \textit{Advances in Neural Information Processing Systems} (Vol. 30). \url{https://arxiv.org/abs/1706.03762}
 
-Zhou, H., Zhang, S., Peng, J., Zhang, S., Li, J., Xiong, H., \& Zhang, W. (2021). Informer: Beyond efficient Transformer for long sequence time-series forecasting. \textit{Proceedings of the AAAI Conference on Artificial Intelligence, 35}(12), 11106--11115. https://doi.org/10.1609/aaai.v35i12.17325
+Zhou, H., Zhang, S., Peng, J., Zhang, S., Li, J., Xiong, H., \& Zhang, W. (2021). Informer: Beyond efficient Transformer for long sequence time-series forecasting. \textit{Proceedings of the AAAI Conference on Artificial Intelligence, 35}(12), 11106--11115. \url{https://doi.org/10.1609/aaai.v35i12.17325}
 \end{hangparas}
 \end{document}
