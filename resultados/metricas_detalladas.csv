@@ -1,0 +1,9 @@
+﻿modelo,semilla,MAE,RMSE,epocas
+Persistencia,—,0.50682,0.611189,0
+Estacional (24 h),—,0.267979,0.320085,0
+Atención aditiva,7,0.585861,0.692952,50
+Atención aditiva,23,0.602298,0.698725,38
+Atención aditiva,58,0.600724,0.694034,44
+Transformer,7,0.488832,0.57097,50
+Transformer,23,0.52192,0.610117,50
+Transformer,58,0.501432,0.584451,50

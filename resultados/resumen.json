@@ -1,0 +1,46 @@
+{
+  "datos": {
+    "tipo": "señal sintética; no son mediciones reales",
+    "puntos": 1008,
+    "lookback_horas": 48,
+    "horizonte_horas": 6,
+    "corte": 806,
+    "ventanas_prueba": 33,
+    "semillas": [
+      7,
+      23,
+      58
+    ],
+    "tensorflow": "2.21.0"
+  },
+  "modelos": {
+    "Persistencia": {
+      "MAE_media": 0.5068204403,
+      "MAE_DE": 0.0,
+      "RMSE_media": 0.6111888289,
+      "RMSE_DE": 0.0,
+      "repeticiones": 1
+    },
+    "Estacional (24 h)": {
+      "MAE_media": 0.267978549,
+      "MAE_DE": 0.0,
+      "RMSE_media": 0.3200845718,
+      "RMSE_DE": 0.0,
+      "repeticiones": 1
+    },
+    "Atención aditiva": {
+      "MAE_media": 0.5962944031,
+      "MAE_DE": 0.0090694424,
+      "RMSE_media": 0.6952371399,
+      "RMSE_DE": 0.0030685374,
+      "repeticiones": 3
+    },
+    "Transformer": {
+      "MAE_media": 0.5040611426,
+      "MAE_DE": 0.0166999327,
+      "RMSE_media": 0.5885129571,
+      "RMSE_DE": 0.0198872423,
+      "repeticiones": 3
+    }
+  }
+}
