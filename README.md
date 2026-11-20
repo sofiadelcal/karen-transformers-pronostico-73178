@@ -7,7 +7,7 @@ Proyecto de Karen Sofía Delgado Calderón para **R2-A3-S12 Transformers (Moodle
 - `Karen_Transformers_Pronostico.ipynb`: cuaderno ejecutable en Google Colab.
 - `experimento_transformers.py`: implementación TensorFlow/Keras y guardado de resultados.
 - `main.tex`: fuente LaTeX del informe, con formato de estudiante basado en APA 7.
-- `Karen_Informe_Transformers_APA.pdf`: informe compilado.
+- `Karen_Informe_Transformers.pdf`: informe compilado.
 - `resultados/`: métricas observadas en la ejecución, resumen JSON y figuras.
 
 ## Ejecución
